@@ -89,9 +89,9 @@ blockquote p:last-child {
 /* Full size background image */
 html, #container, .inner { background-color:transparent;}
 html {
-  background:url(./files/background.jpg) center center no-repeat fixed;
-  background-size: cover;
-  opacity: 0.3;
+  background: #011644 
+  /* url(./files/background.jpg) center center no-repeat fixed;
+  background-size: cover; */
 }
 body {
   max-width: 800px;
@@ -100,7 +100,7 @@ body {
 header, #content, footer { 
   background: rgba(0,0,0,0); 
   padding: 25px;
-  color:#FFFFFF; 
+  color: #FFFFFF; 
 }
 
 /* Menu Links */
@@ -114,7 +114,7 @@ ul.main-menu {
 }
 ul.main-menu li a {
   margin-right: 20px;
-  font-size: 3.0rem;
+  font-size: 2.0rem;
   border-bottom: solid transparent 3px;
   color:#cfd2da;
 }
