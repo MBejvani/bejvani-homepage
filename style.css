@@ -22,10 +22,6 @@ a {
   text-decoration: none; 
   color:#EF6D3D;
 }
-a:focus {
-  outline: thin dotted;
-}
-
 small {
   font-size: 75%;
 }
@@ -80,7 +76,7 @@ blockquote {
   border-left: 2px solid #AFC0D2;
   margin: 1.6em 10%;
   padding: .75em 1em;
-  font-size:1.8rem;
+  font-size: 1.8rem;
 }
 blockquote p:last-child {
   margin-bottom: 0;  
@@ -93,16 +89,17 @@ blockquote p:last-child {
 /* Full size background image */
 html, #container, .inner { background-color:transparent;}
 html {
-  background:url(background.jpg) center center no-repeat fixed;
-  background-size:cover;
+  background:url(./files/background.jpg) center center no-repeat fixed;
+  background-size: cover;
+  opacity: 0.3;
 }
 body {
-  max-width:800px;
-  margin:25px auto;
+  max-width: 800px;
+  margin: 25px auto;
 }
 header, #content, footer { 
-  background: rgba(0,0,0,.8); 
-  padding:25px;
+  background: rgba(0,0,0,0); 
+  padding: 25px;
   color:#FFFFFF; 
 }
 
@@ -112,12 +109,12 @@ ul.main-menu {
   padding: 0;
   display: flex;
   flex-wrap: wrap;
-  justify-content: left;
+  justify-content: center;
   list-style: none;
 }
 ul.main-menu li a {
-  margin-right:20px;
-  font-size:2.0rem;
+  margin-right: 20px;
+  font-size: 3.0rem;
   border-bottom: solid transparent 3px;
   color:#cfd2da;
 }
