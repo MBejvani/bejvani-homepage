@@ -27,11 +27,10 @@
     <!-- Visit: https://getbootstrap.com/docs/4.3/getting-started/introduction/ -->
   </head>
   
-  <body class="card">
+  <body>
     <header id="header">
       <!-- Menu link fragment #id should match a div id. Example: <a href="#home"> links to <div id="home"></div>  -->
       <ul class="main-menu">
-        <li><a href="#home">Home</a></li>
         <li><a href="#about">About</a></li>
         <li><a href="https://github.com/MBejvani?tab=repositories">Codes</a></li>
         <li><a href="https://scholar.google.com/citations?user=lYZrnVIAAAAJ&hl=en">Publications</a></li>
@@ -40,44 +39,33 @@
       </ul>                 
     </header>
 
-    <div id="home" class="content-region hide">
-      <div class="cad" >
-        <img src="./files/photo.jpg">
-        <div class="ca">
-          <h2>Hi, I'm Mohammad Bejvani.</h2>
-          <h3>Geophysicist & Developer</h3>
-        </div>
-      </div>
-    </div>
-
-    <div id="about" class="content-region hide">
-      <div class="ca">
-        <p>
-          I grew up in Karaj and received my M.Sc. degree in Geophysics from the University of Tehran in 2015. 
-          During the M.Sc. program, my research was focused on the spectral decomposition. I was working under the supervision of <a href="https://geoimaging.igf.edu.pl/?emd_employee=ali-gholami">Dr. 
-          Ali Gholami</a> and <a href="https://rtis2.ut.ac.ir/cv/hamid/?lang=en-gb">Dr. Hamidreza Siahkoohi</a> at the Institute of Geophysics. My scientific journey began with my undergraduate 
-          in physics, leading to my Master's research in the invasion and exploration of Geophysics within a computational seismology group.
-        </p>
-        <button><a href="./files/cv_bejvani.pdf">CV</a></button>
-      </div>
-    </div>
-
-    <div id="siesmo" class="content-region hide">
-      <div class="cad" >
-        <img src="./files/background1.jpg">
-        <div class="cad">
-          <P>
-            <h3>Intrests</h3>
-            <blockquote>
-              Signal Processing<br>
-              Seismic Imaging<br>
-              Inverse problems and Regularization<br>
-              Numerical analysis and Simulation<br>
-              AI and Machine Learning<br>
-              Near-Surface Geophysics<br>
-            </blockquote>
-          </P>
-
+     <div id="container">
+      <div class="inner">
+        <div id="content"> 
+      
+          <div id="about" class="content-region hide">
+            <p>
+              I grew up in Karaj and received my M.Sc. degree in Geophysics from the University of Tehran in 2015. 
+              During the M.Sc. program, my research was focused on the spectral decomposition. I was working under the supervision of <a href="https://geoimaging.igf.edu.pl/?emd_employee=ali-gholami">Dr. 
+              Ali Gholami</a> and <a href="https://rtis2.ut.ac.ir/cv/hamid/?lang=en-gb">Dr. Hamidreza Siahkoohi</a> at the Institute of Geophysics. My scientific journey began with my undergraduate 
+              in physics, leading to my Master's research in the invasion and exploration of Geophysics within a computational seismology group.
+            </p>
+          </div>
+          
+          <div id="siesmo" class="content-region hide">
+            <P>
+              <h3>Intrests</h3>
+              <blockquote>
+                Signal Processing<br>
+                Seismic Imaging<br>
+                Inverse problems and Regularization<br>
+                Numerical analysis and Simulation<br>
+                AI and Machine Learning<br>
+                Near-Surface Geophysics<br>
+              </blockquote>
+            </P>
+          </div>
+          
         </div>
       </div>
     </div>
