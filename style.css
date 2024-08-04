@@ -10,7 +10,7 @@ body {
   font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
   line-height: 1.6;
   font-weight: 400;
-  font-family: "Roboto", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Euclid Circular A", "Poppins";
   color: #FFFFFF;
 }
 
@@ -80,7 +80,7 @@ blockquote p:last-child {
  */
 
 /* Full size background image */
-html { background-color: #000000}
+html { background-color: #011644}
 body {
   max-width:800px;
   margin:25px auto;
@@ -97,7 +97,7 @@ ul.main-menu {
   padding: 0;
   display: flex;
   flex-wrap: wrap;
-  justify-content: left;
+  justify-content: center;
   list-style: none;
 }
 ul.main-menu li a {
