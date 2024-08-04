@@ -76,7 +76,7 @@ a {
 
 /* Menu Links */
 ul.main-menu {
-  margin: 0;
+  margin-bottom: 10px;
   padding: 0;
   display: flex;
   flex-wrap: wrap;
