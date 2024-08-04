@@ -75,7 +75,7 @@ a {
 }
 
 /* Menu Links */
-ul.main-menu {
+
 /*   font-size: 24px;
   font-weight: 400;
   margin-top: 0;
@@ -84,6 +84,8 @@ ul.main-menu {
   
 /*   margin: 0;
   padding: 0; */
+
+ul.main-menu {
   display: flex;
   flex-wrap: wrap;
 /*   justify-content: center; */
@@ -95,6 +97,7 @@ ul.main-menu {
   border-bottom: solid transparent 3px;
   color:#cfd2da;
 } */
+
 ul.main-menu li a:hover {
   color:#FFFFFF;
 }
