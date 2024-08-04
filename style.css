@@ -101,11 +101,11 @@ ul.main-menu li a.active {
 @media (width <= 600px) {
   .card {
     margin: 0 40px;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-bottom: 60px;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-bottom: 10px;
     width: 100%;
-    text-align: center;
+    text-align: left;
     flex-direction: column;
   }
 
