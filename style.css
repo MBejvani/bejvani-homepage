@@ -91,12 +91,12 @@ ul.main-menu {
 /*   justify-content: center; */
   list-style: none;
 }
-/* ul.main-menu li a {
+ul.main-menu li a {
   margin-right: 20px;
   font-size: 24px;
   border-bottom: solid transparent 3px;
   color:#cfd2da;
-} */
+}
 
 ul.main-menu li a:hover {
   color:#FFFFFF;
