@@ -75,13 +75,6 @@ a {
 }
 
 /* Menu Links */
-
-/*   font-size: 24px;
-  font-weight: 400;
-  margin-top: 0;
-  margin-right: 30px;
-  margin-bottom: 10px; */
-  
 ul.main-menu {
   margin: 0;
   padding: 0;
@@ -92,7 +85,7 @@ ul.main-menu {
 }
 ul.main-menu li a {
   margin-right: 20px;
-  font-size: 20px;
+  font-size: 18px;
   border-bottom: solid transparent 3px;
   color:#cfd2da;
 }
