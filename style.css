@@ -12,6 +12,7 @@ body {
   font-weight: 400;
   font-family: "Euclid Circular A", "Poppins";
   color: #FFFFFF;
+  background: #011644
 }
 
 /**
@@ -80,15 +81,14 @@ blockquote p:last-child {
  */
 
 /* Full size background image */
-html { background-color: #011644}
 body {
   max-width:800px;
   margin:25px auto;
 }
 header, #content, footer { 
-  background: rgba(0,0,0,.8); 
-  padding:25px;
-  color:#FFFFFF; 
+  background: #000000; 
+  padding: 25px;
+  color: #FFFFFF; 
 }
 
 /* Menu Links */
