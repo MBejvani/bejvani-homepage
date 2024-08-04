@@ -84,7 +84,7 @@ ul.main-menu {
   list-style: none;
 }
 ul.main-menu li a {
-  margin-right: 20px;
+  margin-right: 14px;
   font-size: 18px;
   border-bottom: solid transparent 3px;
   color:#cfd2da;
@@ -96,10 +96,6 @@ ul.main-menu li a:hover {
 ul.main-menu li a.active {
   color:#FFFFFF;
   border-bottom-color:#EF6D3D;
-}
-
-footer {
-  margin-top: 20px;
 }
 
 @media (width <= 600px) {
