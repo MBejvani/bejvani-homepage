@@ -86,9 +86,13 @@ body {
   margin:25px auto;
 }
 header, #content, footer { 
+  display: flex;
   background: #000000; 
-  padding: 25px;
+  width: 75vw;
+  max-width: 650px;
+  padding: 60px 30px 50px 20px;
   color: #FFFFFF; 
+  border-radius: 24px;
 }
 
 /* Menu Links */
