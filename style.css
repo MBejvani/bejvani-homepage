@@ -82,18 +82,19 @@ a {
   margin-right: 30px;
   margin-bottom: 10px; */
   
-/*   margin: 0;
-  padding: 0; */
+
 
 ul.main-menu {
+  margin: 0;
+  padding: 0;
   display: flex;
   flex-wrap: wrap;
-/*   justify-content: center; */
+  justify-content: center;
   list-style: none;
 }
 ul.main-menu li a {
   margin-right: 20px;
-  font-size: 24px;
+  font-size: 20px;
   border-bottom: solid transparent 3px;
   color:#cfd2da;
 }
