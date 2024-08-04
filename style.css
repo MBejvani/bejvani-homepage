@@ -76,7 +76,7 @@ a {
 
 /* Menu Links */
 ul.main-menu {
-  margin-bottom: 30px;
+  margin-bottom: 40px;
   padding: 0;
   display: flex;
   flex-wrap: wrap;
@@ -84,9 +84,9 @@ ul.main-menu {
   list-style: none;
 }
 ul.main-menu li a {
-  margin-right: 14px;
-  font-size: 18px;
-  border-bottom: solid transparent 3px;
+  margin-right: 10px;
+  font-size: 16px;
+/*   border-bottom: solid transparent 3px; */
   color:#cfd2da;
 }
 
