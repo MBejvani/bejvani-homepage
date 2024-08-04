@@ -98,6 +98,10 @@ ul.main-menu li a.active {
   border-bottom-color:#EF6D3D;
 }
 
+footer {
+  margin-top: 20px;
+}
+
 @media (width <= 600px) {
   .card {
     margin: 0 40px;
