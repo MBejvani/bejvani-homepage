@@ -61,7 +61,7 @@ body {
   background: transparent;
   color: #FFFFFF;
   font-family: inherit;
-  padding: 16px 26px;
+  padding: 14px 24px;
   font-size: 24px;
   border-radius: 40px;
 }
@@ -85,8 +85,8 @@ ul.main-menu {
 }
 ul.main-menu li a {
   margin-right: 10px;
-  font-size: 16px;
-/*   border-bottom: solid transparent 3px; */
+  font-size: 18px;
+  border-bottom: solid transparent 3px;
   color:#cfd2da;
 }
 
