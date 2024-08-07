@@ -84,8 +84,8 @@ ul.main-menu {
   list-style: none;
 }
 ul.main-menu li a {
-  margin-right: 20px;
-  font-size: 20px;
+  margin-right: 19px;
+  font-size: 19px;
   border-bottom: solid transparent 3px;
   color:#cfd2da;
 }
@@ -100,7 +100,7 @@ ul.main-menu li a.active {
 
 @media (width <= 600px) {
   .card {
-    margin: 0 20px;
+    margin: 0 40px;
     padding-left: 37px;
     padding-right: 37px;
     padding-bottom: 10px;
