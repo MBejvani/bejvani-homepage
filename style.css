@@ -18,7 +18,7 @@ body {
   align-items: center;
   width: 75vw;
   max-width: 650px;
-  padding: 20px 30px 10px 30px;
+  padding: 20px 40px 10px 40px;
   background: #000000;
   border-radius: 24px;
 }
@@ -85,7 +85,7 @@ ul.main-menu {
 }
 ul.main-menu li a {
   margin-right: 10px;
-  font-size: 18px;
+  font-size: 16px;
   border-bottom: solid transparent 3px;
   color:#cfd2da;
 }
@@ -100,7 +100,7 @@ ul.main-menu li a.active {
 
 @media (width <= 600px) {
   .card {
-    margin: 0 40px;
+    margin: 0 20px;
     padding-left: 35px;
     padding-right: 35px;
     padding-bottom: 10px;
